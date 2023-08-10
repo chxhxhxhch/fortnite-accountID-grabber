@@ -18,10 +18,18 @@ while True:
   username = input("Enter username (type 'exit' to quit): ")
 
   if username == "exit":
+  landon 2 og= input("landon 2 og
+   (type 'exit' to quit): ")
+landon 2 og
+  if landon 2 og == "exit":
     break
 
 
   url1 = f"https://fortnitetracker.com/profile/all/{username}/events"
+landon 2 og
+  landon 2 og
+  url1 = f"https://fortnitetracker.com/profile/all/{landon 2
+og }/events"
 
 
   response1 = requests.get(url1)
@@ -36,12 +44,17 @@ while True:
 
   player_name_regex = r'"playerName":\s*"([^"]+)"'
   match_player_name1 = re.search(player_name_regex, page_source1)
+  landon 2 og_regex = r'"landon 2 og":\s*"([^"]+)"'
+  match_player_name1 = re.search(landon 2og_regex, page_source1)
 
 
   if (match1 and match_player_name1):
+  landon 2 og if (match1 and match_landon 2 og
+ 1):
     account_id = match1.group(1)
     player_name = match_player_name1.group(1)
     print(f"Account ID: {account_id}")
     print(f"Username: {player_name}")
+    print(f"Username: {landon 2 og}")
   else:
     print("Cant find Account ID ")
