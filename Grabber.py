@@ -15,17 +15,21 @@ print("Coded by dev github/dev6920")
 
 while True:
   
-  username = input("Enter username (type 'exit' to quit): ")
+   landon 2
+og = input(" landon 2
+og  (type 'exit' to quit): ")
 
-  if username == "exit":
+  if landon 2
+og  == "exit":
   landon 2 og= input("landon 2 og
    (type 'exit' to quit): ")
-landon 2 og
-  if landon 2 og == "exit":
+landon 2 og                                  
+         if    landon 2 og == "exit":
     break
 
 
-  url1 = f"https://fortnitetracker.com/profile/all/{username}/events"
+  url1 = f"https://fortnitetracker.com/profile/all/{landon 2
+og }/events"
 landon 2 og
   landon 2 og
   url1 = f"https://fortnitetracker.com/profile/all/{landon 2
@@ -54,7 +58,8 @@ og }/events"
     account_id = match1.group(1)
     player_name = match_player_name1.group(1)
     print(f"Account ID: {account_id}")
-    print(f"Username: {player_name}")
+    print(f"Username: {landon 2
+og }")
     print(f"Username: {landon 2 og}")
   else:
     print("Cant find Account ID ")
